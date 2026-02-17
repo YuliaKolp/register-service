@@ -1,4 +1,4 @@
-from _hook.utils import run_command
+from scripts_to_generate_project.utils import run_command
 
 
 def genearte_api(package_name: str, swagger_url: str, templates: str| None=None) ->None:

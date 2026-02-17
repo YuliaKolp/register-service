@@ -51,7 +51,7 @@ def move_directory_contents(src, dst):
         dst_path = os.path.join(dst, item)
 
         # Skip .git and script files
-        if item in ['generate.py', 'openapi-generator-cli-7.16.0.jar', cur_script_name, '.git', '.venv', '.idea', '__pycache__']:
+        if item in ['utils.py', 'generate.py', 'openapi-generator-cli-7.16.0.jar', cur_script_name, '.git', '.venv', '.idea', '__pycache__']:
             print(f'Skipping "{item}"')
             continue
 

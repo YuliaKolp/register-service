@@ -4,7 +4,7 @@ from pathlib import Path
 
 from cookiecutter.main import cookiecutter
 
-from _hook.handle_dirs import move_directory_contents
+from scripts_to_generate_project.handle_dirs import move_directory_contents
 
 
 def run_command(command:list[str]) -> str:
